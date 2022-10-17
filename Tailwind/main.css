@@ -19,8 +19,15 @@ body {
 }
 
 .navlink {
-    @apply text-2xl font-semibold text-[#181b21] mx-[0.8rem] px-[0.8rem] py-[0.4rem] rounded-[0.8rem] bg-transparent
-    hover:bg-[#181b21] hover:bg-opacity-10;
+    @apply text-2xl font-semibold text-[#181b21] mx-[0.8rem] px-[0.8rem] py-[0.4rem] rounded-[0.8rem] bg-transparent;
+}
+
+.navlink_hover {
+    @apply hover:bg-[#181b21] hover:bg-opacity-10
+}
+
+.active {
+    @apply bg-[#181b21] text-white transition-colors duration-200;
 }
 
 .car_section {
