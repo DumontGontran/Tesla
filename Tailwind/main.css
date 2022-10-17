@@ -64,6 +64,10 @@ body {
     @apply text-[#393c41] bg-white bg-opacity-60 lg:ml-8 hover:bg-[#171a20] hover:text-white transition-colors duration-200;
 }
 
+.up_svg {
+    @apply block w-full h-20 mx-auto absolute bottom-[85%] animate-bounce;
+}
+
 .down_svg {
     @apply block w-full h-20 mx-auto absolute top-[93%] animate-bounce;
 }
