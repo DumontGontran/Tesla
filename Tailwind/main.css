@@ -6,12 +6,47 @@
 
 html {
     font-size: 62.5%;
+    height: 100%;
     scroll-behavior: smooth;
     font-family: 'Montserrat', sans-serif;
 }
 
 body {
-    @apply min-w-[20.9375rem];
+    @apply min-w-[20.9375rem] h-[100%];
+}
+
+main {
+    height: 100%;
+}
+
+form {
+    @apply flex flex-col absolute left-[50%] top-[10%] -translate-x-[55%] min-w-[20rem] w-2/4 max-w-2xl border-2 m-1 border-black rounded-[0.8rem];
+}
+
+label {
+    @apply mb-3 font-semibold text-2xl mx-2;
+}
+.form_infos {
+    @apply p-2 m-2 text-2xl;
+}
+
+.title {
+    @apply text-white bg-black bg-opacity-80 text-2xl text-center font-semibold underline mb-5;
+}
+
+.bg-inventory {
+    background-image: url('../src/images/backgroundTesla.jfif');
+    @apply bg-fixed bg-center lg:bg-cover;
+}
+
+.bg-account {
+    background-image: url('../src/images/backgroundTeslaAccount.jfif');
+    @apply bg-cover bg-center;
+}
+
+.bg-custom_order {
+    background-image: url('../src/images/backgroundTeslaCustomOrder.jfif');
+    @apply bg-fixed bg-center lg:bg-cover;
 }
 
 .navbar {
@@ -20,6 +55,10 @@ body {
 
 .navlink {
     @apply text-2xl font-semibold text-[#181b21] mx-[0.8rem] px-[0.8rem] py-[0.4rem] rounded-[0.8rem] bg-transparent;
+}
+
+.products .navlink {
+    @apply text-xl;
 }
 
 .navlink_hover {
@@ -59,8 +98,8 @@ body {
 }
 
 .buttons {
-    @apply text-2xl text-white bg-[#171a20] font-medium uppercase my-2 py-[0.4rem] px-[2.4rem] 
-    rounded-[3.2rem] w-[25.5rem] h-16 bg-opacity-80;
+    @apply text-2xl text-white bg-[#171a20] font-medium uppercase my-6 py-[0.4rem] px-[2.4rem] 
+    rounded-[3.2rem] h-16 bg-opacity-80;
 }
 
 .order {
