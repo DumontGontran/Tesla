@@ -1,0 +1,70 @@
+[
+    {
+        "id": 1,
+        "model": "Model S",
+        "description": "Autonomy: 600miles, 0 to 100mph: 2,1s, Maximum speed: 322kph, Peak power: 1020ch",
+        "colors": [
+            "red",
+            "blue",
+            "black",
+            "white"
+        ],
+        "price": "89990$"
+    },
+    {
+        "id": 2,
+        "model": "Model 3",
+        "description": "Autonomy: 602miles, 0 to 100mph: 3,3s, Dual-motor: AWD",
+        "colors": [
+            "red",
+            "blue",
+            "yellow",
+            "green",
+            "purple"
+        ],
+        "price": "43800$"
+    },
+    {
+        "id": 3,
+        "model": "Model X",
+        "description": "Autonomy: 543miles, 0 to 100mph: 2,6s, 1/4 mile: 9,9s, Peak power: 1020ch",
+        "colors": [
+            "black",
+            "yellow",
+            "green",
+            "purple",
+            "white"
+        ],
+        "price": "99900$"
+    },
+    {
+        "id": 4,
+        "model": "Model Y",
+        "description": "Autonomy: 533miles, Liters of loading capacity: 2100+, Dual-motor: AWD",
+        "colors": [
+            "red",
+            "blue",
+            "black",
+            "yellow"
+        ],
+        "price": "59900$"
+    },
+    {
+        "id": 5,
+        "model": "Solar Roof",
+        "description": "A beautiful solar installation without compromise, 3X More resistant than classic tiles, A profitable investment over time",
+        "colors": [
+            "default"
+        ],
+        "price": "172$/m²"
+    },
+    {
+        "id": 6,
+        "model": "Solar Panels",
+        "description": "Convert sunlight into energy, Storing energy with the Powerwall, Access backup power at any time",
+        "colors": [
+            "default"
+        ],
+        "price": "242$/m²"
+    }
+]
