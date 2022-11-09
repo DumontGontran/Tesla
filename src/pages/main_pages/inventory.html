@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../tailwind.css">
+  <link rel="shortcut icon" href="../../images/favicon.ico" type="image/x-icon">
+  <title>Electric cars, Solar & Clean energy | Tesla</title>
+</head>
+
+<body class="bg-inventory">
+  <header>
+    <nav class="navbar">
+      <a href="../main_pages/index.html">
+        <img src="../../images/tesla.svg" alt="Tesla logo" class="h-6">
+      </a>
+      <div class="flex flex-col">
+        <a href="../main_pages/inventory.html" class="navlink">Inventory</a>
+        <a href="../main_pages/account.html" class="navlink">Account</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="flex flex-col">
+    <div class="flex flex-col items-center mt-40">
+      <h1 class="font-semibold text-4xl">Inventory</h1>
+      <span class="text-2xl">The inventory is empty !</span>
+      <form class="flex relative translate-x-0 left-0">
+        <h1 class="title">Receiver</h1>
+        <label for="lastname">Last name:*</label>
+        <input type="text" placeholder="lastname" id="lastname" autocomplete="lastname" class="form_infos" min="2"
+          max="32" required>
+        <label for="firstname">First name:*</label>
+        <input type="text" placeholder="firstname" id="firstname" autocomplete="firstname" min="2" max="32"
+          class="form_infos" required>
+        <label for="email">Email:*</label>
+        <input type="email" name="email" id="email" autocomplete="email" placeholder="email@domain.extension" min="5"
+          max="65" class="form_infos" required>
+        <label for="phone">Phone:*</label>
+        <input type="tel" name="phone" id="phone" autocomplete="phone" placeholder="your phone number" min="10" max="10"
+          class="form_infos" required>
+        <label for="adress">Full address:*</label>
+        <input type="text" name="address" id="address" autocomplete="adress" placeholder="your address" min="10"
+          max="255" class="form_infos" required>
+        <label for="country">Country:*</label>
+        <input type="text" name="country" id="country" autocomplete="country" placeholder="your country"
+          class="form_infos" min="2" max="30" required>
+        <input type="submit" value="Order" class="buttons order cursor-pointer mx-auto w-[18rem]">
+      </form>
+    </div>
+  </main>
+
+</body>
+
+</html>
