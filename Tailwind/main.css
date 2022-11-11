@@ -125,7 +125,12 @@ label {
     hover:bg-[#181b21] hover:border-white hover:border-2 lg:hidden;
 }
 
-.btn {
-@apply bg-black text-yellow-300 py-2 px-4 rounded-md font-bold transition-all duration-300 
-sm:text-lg lg:text-2xl dark:bg-yellow-300 dark:text-black sm:hover:bg-yellow-300 sm:hover:text-black;
+#quantity {
+    @apply w-1/3 cursor-pointer text-white ml-1;
+}
+
+#quantity_value {
+    color: white;
+    font-size: 15px;
+    @apply font-semibold;
 }
