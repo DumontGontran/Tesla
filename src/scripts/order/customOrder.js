@@ -49,7 +49,7 @@ async function displayArticle() {
 }
 displayArticle();
 
-const addInInventory = (article, colorOption, quantity) => {
+const addInInventory = (article, colors, quantity) => {
   document.querySelector('#submit').addEventListener('click', (event) => {
     event.preventDefault();
 
@@ -60,7 +60,5 @@ const addInInventory = (article, colorOption, quantity) => {
       quantity: quantity.value
     }
     console.log(customOrder);
-    localStorage.setItem('customOrder', JSON.stringify([customOrder]));
-    window.location.href = 'http://localhost:5500/src/pages/main_pages/inventory.html';
-  })
+  });
 }
