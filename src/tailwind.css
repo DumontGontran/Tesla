@@ -514,6 +514,10 @@ video {
   position: relative;
 }
 
+.left-0{
+  left: 0px;
+}
+
 .left-\[2\.645rem\]{
   left: 2.645rem;
 }
@@ -524,10 +528,6 @@ video {
 
 .right-2{
   right: 0.5rem;
-}
-
-.left-0{
-  left: 0px;
 }
 
 .m-3{
@@ -563,16 +563,16 @@ video {
   height: 1.5rem;
 }
 
-.w-\[8\.3rem\]{
-  width: 8.3rem;
-}
-
 .w-\[18rem\]{
   width: 18rem;
 }
 
 .w-\[25\.5rem\]{
   width: 25.5rem;
+}
+
+.w-\[8\.3rem\]{
+  width: 8.3rem;
 }
 
 .origin-center{
@@ -700,7 +700,7 @@ label{
 }
 
 .bg-inventory {
-  background-image: url('../src/images/backgroundTesla.jfif');
+  background-image: url('./images/backgroundTesla.jfif');
   background-attachment: fixed;
   background-position: center;
 }
@@ -712,13 +712,13 @@ label{
 }
 
 .bg-account {
-  background-image: url('../src/images/backgroundTeslaAccount.jfif');
+  background-image: url('./images/backgroundTeslaAccount.jfif');
   background-size: cover;
   background-position: center;
 }
 
 .bg-custom_order {
-  background-image: url('../src/images/backgroundTeslaCustomOrder.jfif');
+  background-image: url('./images/backgroundTeslaCustomOrder.jfif');
   background-attachment: fixed;
   background-position: center;
 }

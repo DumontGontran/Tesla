@@ -35,17 +35,17 @@ label {
 }
 
 .bg-inventory {
-    background-image: url('../src/images/backgroundTesla.jfif');
+    background-image: url('./images/backgroundTesla.jfif');
     @apply bg-fixed bg-center lg:bg-cover;
 }
 
 .bg-account {
-    background-image: url('../src/images/backgroundTeslaAccount.jfif');
+    background-image: url('./images/backgroundTeslaAccount.jfif');
     @apply bg-cover bg-center;
 }
 
 .bg-custom_order {
-    background-image: url('../src/images/backgroundTeslaCustomOrder.jfif');
+    background-image: url('./images/backgroundTeslaCustomOrder.jfif');
     @apply bg-fixed bg-center lg:bg-cover;
 }
 

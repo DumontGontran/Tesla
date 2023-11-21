@@ -2,7 +2,7 @@ async function getArticleData() {
   let params = new URLSearchParams(document.location.search);
   let id = params.get('id');
 
-  const res = await fetch(`http://localhost:5500/src/data/data.json`);
+  const res = await fetch(`https://tesla.gontrandev.fr/data/data.json`);
   let article = await res.json();
   article = article.filter(x => x.id == id);
   return article;
